@@ -1,29 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nifty Shloka</title>
-    <style>
-      body {
-        background-color: #000000;
-        font-family: Arial, sans-serif;
-        margin: 0;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 15px;
-      }
-      .responsive-image {
-        max-width: 70%;
-        max-height: 60vh;
-        width: auto;
-        height: auto;
-      }
-    </style>
-  </head>
-  <body>
-    <img src="logo.png" alt="Nifty Shloka" class="responsive-image" />
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nifty Shloka</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .logo {
+      background-image: url('/mnt/data/logo.png'); /* Add your logo file path here */
+      background-size: contain;
+      background-repeat: no-repeat;
+      width: 300px;
+      height: 300px;
+    }
+  </style>
+</head>
+<body class="bg-black flex items-center justify-center min-h-screen">
+  <div class="text-center">
+    <div class="logo"></div> <!-- Logo image area -->
+    <h1 class="text-white text-4xl font-bold mt-4">NIFTY SHLOKA</h1>
+    <p class="text-gray-300 text-lg mt-2">Your Investment Co-pilotss</p>
+  </div>
+</body>
 </html>
