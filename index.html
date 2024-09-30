@@ -6,52 +6,26 @@
   <title>Nifty Shloka</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    .intro {
-      background-image: url('intro.png');
-      background-size: contain;
-      background-repeat: no-repeat;
+    .responsive-img {
       width: 100%;
-      max-width: 300px;
-      height: 0;
-      padding-bottom: 30%; /* Maintain aspect ratio */
-    }
-    .trinity {
-      background-image: url('trinity.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 100%;
-      max-width: 800px;
-      height: 0;
-      padding-bottom: 30%; /* Maintain aspect ratio */
-    }
-    .quote {
-      background-image: url('quote.png');
-      background-size: contain;
-      background-repeat: no-repeat;
-      width: 100%;
-      max-width: 600px;
-      height: 0;
-      padding-bottom: 30%; /* Maintain aspect ratio */
+      height: auto;
     }
     @media (max-width: 640px) {
-      .intro {
-        padding-bottom: 10%; /* Adjust aspect ratio for mobile */
-      }
-      .trinity, .quote {
-        padding-bottom: 75%; /* Adjust aspect ratio for mobile */
+      .responsive-img {
+        max-width: 100%;
       }
     }
   </style>
 </head>
 <body class="bg-black my-6 md:my-12 flex flex-col items-center space-y-6 md:space-y-12 justify-center px-4 md:px-0">
-    <div class="intro mx-auto"></div> 
+    <img src="intro.png" alt="Introduction" class="responsive-img max-w-[300px]">
   
   <!-- Emergent properties -->
-  <div class=" flex flex-col space-y-6 md:space-y-12 items-center justify-center w-full">
+  <div class="flex flex-col space-y-6 md:space-y-12 items-center justify-center w-full">
     <!-- part 1 -->
     <div class="text-center space-y-4 md:space-y-6 w-full">
       <h1 class="text-3xl md:text-4xl font-bold text-white">Nifty Shloka Trinity</h1>
-      <div class="trinity mx-auto"></div> 
+      <img src="trinity.png" alt="Nifty Shloka Trinity" class="responsive-img max-w-[800px] mx-auto">
     </div>
     <!-- part 2 -->
     <div class="text-white px-4 md:px-8 max-w-4xl">
@@ -72,7 +46,7 @@
       </ul>
     </div>
     <!-- part 3 -->
-    <div class="quote mx-auto w-full"></div> 
+    <img src="quote.png" alt="Quote" class="responsive-img max-w-[600px] mx-auto">
   </div>
 </body>
 </html>
