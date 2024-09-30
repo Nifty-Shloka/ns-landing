@@ -6,8 +6,8 @@
   <title>Nifty Shloka</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <style>
-    .logo {
-      background-image: url('logo.png');
+    .intro {
+      background-image: url('intro.png');
       background-size: contain;
       background-repeat: no-repeat;
       width: 100%;
@@ -29,13 +29,13 @@
       background-size: contain;
       background-repeat: no-repeat;
       width: 100%;
-      max-width: 1200px;
+      max-width: 600px;
       height: 0;
       padding-bottom: 30%; /* Maintain aspect ratio */
     }
     @media (max-width: 640px) {
-      .logo {
-        padding-bottom: 75%; /* Adjust aspect ratio for mobile */
+      .intro {
+        padding-bottom: 10%; /* Adjust aspect ratio for mobile */
       }
       .trinity, .quote {
         padding-bottom: 75%; /* Adjust aspect ratio for mobile */
@@ -44,12 +44,10 @@
   </style>
 </head>
 <body class="bg-black my-6 md:my-12 flex flex-col items-center space-y-6 md:space-y-12 justify-center px-4 md:px-0">
-  <div class="text-center">
-    <div class="logo mx-auto"></div> 
-  </div>
+    <div class="intro mx-auto"></div> 
   
   <!-- Emergent properties -->
-  <div class="bg-black flex flex-col space-y-6 md:space-y-12 items-center justify-center w-full">
+  <div class=" flex flex-col space-y-6 md:space-y-12 items-center justify-center w-full">
     <!-- part 1 -->
     <div class="text-center space-y-4 md:space-y-6 w-full">
       <h1 class="text-3xl md:text-4xl font-bold text-white">Nifty Shloka Trinity</h1>
