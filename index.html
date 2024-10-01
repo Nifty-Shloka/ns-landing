@@ -1,72 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nifty Shloka</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    .responsive-img {
-      width: 100%;
-      height: auto;
-    }
-    @media (max-width: 640px) {
-      .responsive-img {
-        max-width: 100%;
-      }
-    }
-  </style>
-</head>
-<body class="bg-black my-6 md:my-12 flex flex-col items-center space-y-6 md:space-y-12 justify-center px-4 md:px-0">
-    <img src="intro.png" alt="Introduction" class="responsive-img max-w-[300px]">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nifty Shloka</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body
+    class="bg-black flex flex-col items-center space-y-6 md:space-y-12 justify-center px-4 md:px-0"
+  >
+    <div class="flex flex-col items-center justify-center h-screen">
+      <img src="intro.png" alt="Introduction" class="w-2/3 md:w-1/3 mx-auto" />
+    </div>
     <!-- introduction part -->
     <div class="flex flex-col md:flex-row items-center justify-center">
       <!-- Main Content Section -->
-      <div class="max-w-4xl text-center md:text-left px-0 md:px-8">
-          <h1 class="text-4xl font-bold text-white mb-4">Intro: <span class="text-gray-200">Nifty Shloka</span></h1>
+      <div class="max-w-4xl text-center md:text-left px-0 md:px-8 mb-12">
+        <p class="text-2xl text-white">
+          A new age <span class="text-green-400">Wealth Tech Platform</span> to
+          enable a Unified Investing Experience across a
+          <span class="text-green-400">multi-asset portfolio</span> on the
+          Zerodha Platform.
+        </p>
 
-          <p class="text-xl text-white">
-              A new age <span class="text-green-400">Wealth Tech Platform</span> to enable a Unified Investing Experience across a <span class="text-green-400">multi-asset portfolio</span> on the Zerodha Platform.
-          </p>
-
-          <p class="text-xl text-white mt-4">
-              Nifty Shloka brings a diverse range of investment options under one roof, including <span class="text-green-400">Fixed Income</span>, <span class="text-green-400">Equity Mutual Funds</span>, <span class="text-green-400">Long Only Equity strategies</span>, <span class="text-green-400">International Equity Mutual Funds</span>, <span class="text-green-400">Gold/Silver</span>, <span class="text-green-400">REITs/INVITs</span>, <span class="text-green-400">Index & Currency Futures and Options</span>.
-          </p>
+        <p class="text-2xl text-white mt-4">
+          Nifty Shloka brings a diverse range of investment options under one
+          roof, including <span class="text-green-400">Fixed Income</span>,
+          <span class="text-green-400">Equity Mutual Funds</span>,
+          <span class="text-green-400">Long Only Equity strategies</span>,
+          <span class="text-green-400">International Equity Mutual Funds</span>,
+          <span class="text-green-400">Gold/Silver</span>,
+          <span class="text-green-400">REITs/INVITs</span>,
+          <span class="text-green-400"
+            >Index & Currency Futures and Options</span
+          >.
+        </p>
       </div>
+    </div>
 
-      <!-- Image Section -->
-      <div class="mt-8 md:mt-0">
-          <img src="introduction.png" alt="Nifty Shloka Logo" class="h-52 md:h-72">
+    <!-- Emergent properties -->
+    <div
+      class="flex flex-col space-y-6 md:space-y-12 items-center justify-center w-full"
+    >
+      <!-- part 1 -->
+      <div class="text-center space-y-4 md:space-y-6 w-full mb-12">
+        <h1 class="text-3xl md:text-4xl font-bold text-white">
+          Nifty Shloka Trinity
+        </h1>
+        <img src="trinity.png" alt="Nifty Shloka Trinity" class="mx-auto" />
       </div>
-  </div>
-  
-  <!-- Emergent properties -->
-  <div class="flex flex-col space-y-6 md:space-y-12 items-center justify-center w-full">
-    <!-- part 1 -->
-    <div class="text-center space-y-4 md:space-y-6 w-full">
-      <h1 class="text-3xl md:text-4xl font-bold text-white">Nifty Shloka Trinity</h1>
-      <img src="trinity.png" alt="Nifty Shloka Trinity" class="responsive-img max-w-[800px] mx-auto">
+      <!-- part 2 -->
+      <div class="text-white px-4 md:px-8 max-w-4xl">
+        <h1 class="text-3xl md:text-4xl font-semibold mb-4 md:mb-6">
+          Emergent Properties of the NS Bundle
+        </h1>
+        <ul class="list-disc text-lg md:text-xl space-y-4 md:space-y-6">
+          <li>
+            <span class="text-green-400 font-semibold"
+              >Unified Investing Experience:</span
+            >
+            Nifty Shloka brings a diverse range of investment options under one
+            roof, including Fixed Income, Equity Mutual Funds, Long Only Equity
+            strategies, International Equity Mutual Funds, Gold/Silver,
+            REITs/INVITs, Index & Currency Futures, and Options. All these are
+            accessible through your trusted Zerodha platform.
+          </li>
+          <li>
+            <span class="text-green-400 font-semibold"
+              >Smoother Equity Curve:</span
+            >
+            Our data-driven approach leverages asset allocation and uncorrelated
+            strategies to create a more balanced portfolio, helping you navigate
+            market volatility and achieve your financial goals.
+          </li>
+          <li>
+            <span class="text-green-400 font-semibold"
+              >Holistic Portfolio View:</span
+            >
+            We consolidate your holdings, providing a holistic view of your
+            portfolio and crafting personalized strategies to build wealth and
+            outpace inflation across multiple asset classes.
+          </li>
+        </ul>
+      </div>
+      <!-- part 3 -->
+      <img src="quote.png" alt="Quote" class="md:w-2/3 mx-auto pb-12" />
     </div>
-    <!-- part 2 -->
-    <div class="text-white px-4 md:px-8 max-w-4xl">
-      <h1 class="text-3xl md:text-4xl font-bold mb-4 md:mb-6">Emergent Properties of the NS Bundle</h1>
-      <ul class="list-disc text-lg md:text-xl space-y-4 md:space-y-6">
-        <li>
-          <span class="text-green-400 font-semibold">Unified Investing Experience:</span> 
-          Nifty Shloka brings a diverse range of investment options under one roof, including Fixed Income, Equity Mutual Funds, Long Only Equity strategies, International Equity Mutual Funds, Gold/Silver, REITs/INVITs, Index & Currency Futures, and Options. All these are accessible through your trusted Zerodha platform.
-        </li>
-        <li>
-          <span class="text-green-400 font-semibold">Smoother Equity Curve:</span> 
-          Our data-driven approach leverages asset allocation and uncorrelated strategies to create a more balanced portfolio, helping you navigate market volatility and achieve your financial goals.
-        </li>
-        <li>
-          <span class="text-green-400 font-semibold">Holistic Portfolio View:</span> 
-          We consolidate your holdings, providing a holistic view of your portfolio and crafting personalized strategies to build wealth and outpace inflation across multiple asset classes.
-        </li>
-      </ul>
-    </div>
-    <!-- part 3 -->
-    <img src="quote.png" alt="Quote" class="responsive-img max-w-[600px] mx-auto">
-  </div>
-</body>
+  </body>
 </html>
